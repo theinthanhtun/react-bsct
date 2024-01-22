@@ -1,15 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
-import DateCounter from "./DateCounter";
-import Questions from "./Questions.js";
-import DateCounterCha from "./DateCounterCha.js";
-import TipCalculator from "./TipCalculator.js";
+// import App from "./TestComponent/App";
+// import DateCounter from "./TestComponent/DateCounter";
+// import Questions from "./TestComponent/Questions.js";
+// import DateCounterCha from ".TestComponent/DateCounterCha.js";
+// import TipCalculator from "./TestComponent/TipCalculator.js";
+import ListFriends from "./ListFriends/App.js"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <TipCalculator />
+    <ListFriends />
   </React.StrictMode>
 );

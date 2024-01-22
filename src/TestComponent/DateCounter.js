@@ -4,18 +4,18 @@ export default function DateCounter() {
   const currentDate = new Date();
   const [day, setCount] = useState(0);
   const [step, setStep] = useState(1);
-  const increaseStep = () => {
-    setStep((s) => s + 1);
-  };
-  const decreaseStep = () => {
-    setStep((s) => s - 1);
-  };
-  const increaseCount = () => {
-    setCount((d) => d + step);
-  };
-  const decreaseCount = () => {
-    setCount((d) => d - step);
-  };
+  // const increaseStep = () => {
+  //   setStep((s) => s + 1);
+  // };
+  // const decreaseStep = () => {
+  //   setStep((s) => s - 1);
+  // };
+  // const increaseCount = () => {
+  //   setCount((d) => d + step);
+  // };
+  // const decreaseCount = () => {
+  //   setCount((d) => d - step);
+  // };
 
   return (
     <div className="row">
