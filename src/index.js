@@ -6,11 +6,12 @@ import "./index.css";
 // import Questions from "./TestComponent/Questions.js";
 // import DateCounterCha from ".TestComponent/DateCounterCha.js";
 // import TipCalculator from "./TestComponent/TipCalculator.js";
-import ListFriends from "./ListFriends/App.js"
+// import ListFriends from "./ListFriends/App.js";
+import App from "./PopCorn/App.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ListFriends />
+    <App />
   </React.StrictMode>
 );
