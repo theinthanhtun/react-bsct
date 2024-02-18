@@ -1,4 +1,4 @@
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import PropTypes from "prop-types";
 
 const containerStyle = {
@@ -23,15 +23,15 @@ StarRating.propTypes = {
 export default function StarRating({maxRating = 5, color = '#fcc419', size=48, className="", messages=[], defaultRating = 0, onSetRating}){ 
     const [rating,setRating] = useState(defaultRating);
     const [tempRating, setTempRating] = useState(0);
-    function handleRating(rating) {
-        setRating(rating);
-        onSetRating(rating);
-    }
     const textStyle = {
         lineHeight: "1",
         margin: '0',
         color,
         fontSize: `${size / 1.5}px`
+    }
+    function handleRating(rating) {
+        setRating(rating);
+        onSetRating(rating);
     }
     return (
         <div style={containerStyle} className={className}>
