@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+// import "./index.css";
 // import App from "./TestComponent/App";
 // import DateCounter from "./TestComponent/DateCounter";
 // import Questions from "./TestComponent/Questions.js";
 // import DateCounterCha from ".TestComponent/DateCounterCha.js";
 // import TipCalculator from "./TestComponent/TipCalculator.js";
 // import ListFriends from "./ListFriends/App.js";
-import App from "./PopCorn/App2.js";
-import StarRating from "./PopCorn/StarRating.js";
-import ChallengeCurrencyConveter from "./Challenge-Currency-Conveter/Challenge-Currency-Conveter.js"
+// import App from "./PopCorn/App2.js";
+// import StarRating from "./PopCorn/StarRating.js";
+// import ChallengeCurrencyConveter from "./Challenge-Currency-Conveter/Challenge-Currency-Conveter.js"
 // import ChallengeTextExpander from './Challenge/ChallengeTextExpander.js';
+// import Geolocation from './useGeolocation/App.js';
+// import Testing from './Testing/App.js'
+// import App from './Quiz/App.js'
+import App from './Challenge-Bank-Account-useReducer/App'
 // function Test() {
 //   const [movieRating,setMovieRating] = useState(0);
 
