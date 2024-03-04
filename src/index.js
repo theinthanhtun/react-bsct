@@ -13,8 +13,9 @@ import ReactDOM from "react-dom/client";
 // import ChallengeTextExpander from './Challenge/ChallengeTextExpander.js';
 // import Geolocation from './useGeolocation/App.js';
 // import Testing from './Testing/App.js'
-// import App from './Quiz/App.js'
-import App from './Challenge-Bank-Account-useReducer/App'
+import App from './Quiz/App.js'
+import { QuizProvider } from "./Quiz/contexts/QuizContext.js";
+// import App from './Challenge-Bank-Account-useReducer/App'
 // function Test() {
 //   const [movieRating,setMovieRating] = useState(0);
 
@@ -29,7 +30,9 @@ import App from './Challenge-Bank-Account-useReducer/App'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <QuizProvider>
+      <App />
+    </QuizProvider>
     {/* <ChallengeCurrencyConveter /> */}
     {/* <StarRating maxRating={5} messages={['Beautiful','Awesome','Good','Amazing','Gerogeous']} />
     <StarRating size={50} color="red" maxRating={5} className="test" defaultRating={5} /> */}
