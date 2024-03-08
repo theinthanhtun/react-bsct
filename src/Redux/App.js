@@ -1,4 +1,4 @@
-import "./components/index.css"; 
+import "./index.css"; 
 import CreateCustomer from "./features/customers/CreateCustomer";
 import Customer from "./features/customers/Customer";
 import AccountOperations from "./features/accounts/AccountOperations";
@@ -6,7 +6,7 @@ import BalanceDisplay from "./features/accounts/BalanceDisplay";
 import store from './store';
 import { Provider, useSelector } from "react-redux";
 
-store.dispatch({type: 'account/deposit',payload: 100});
+// store.dispatch({type: 'account/deposit',payload: 100});
 console.log(store.getState());
 
 function App() {
